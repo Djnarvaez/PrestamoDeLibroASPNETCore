@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S7sk8QQwiHTItenAFQF2cax6YPrjxJIAb7VJoH96gI9RZwN2Tfv4TZPRe8T1zLJCWopFHYwuMWATe0mA0sK2wQ==",
+  "dgSpecHash": "RPooT+s+3eIyVZ4LoE+qyDGwssswncvSqSh2siJ3XuObYnHjPu5qcS3I0kgbYJ1xIXYG9vt+Ns5Tnc5zge3HvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\APIBook\\APIBook.csproj",
+  "projectFilePath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\APIBook\\APIBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dnarvaez\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Dnarvaez\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

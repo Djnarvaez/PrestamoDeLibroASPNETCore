@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AR3mo1zo6mJ96nCn1EvjJFbPKo6yKGW8FlV7eDWc9xOwBUA+2wajr+a62vDvaNRy6aXckjN1ScQ6Tlo2tUIOQg==",
+  "dgSpecHash": "OnRmp4efnwujA32kIbT8piR1/+RN0B9JYo/sfHTd2UwKQ7+X0ai0obLYlkSgtjY2koCxigAgz54B6U5mzdOUfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\WEBBook\\WEBBook.csproj",
+  "projectFilePath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\WEBBook\\WEBBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dnarvaez\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Dnarvaez\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.9\\microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",

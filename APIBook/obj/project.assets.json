@@ -5794,11 +5794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\APIBook\\APIBook.csproj",
+      "projectUniqueName": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\APIBook\\APIBook.csproj",
       "projectName": "APIBook",
-      "projectPath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\APIBook\\APIBook.csproj",
+      "projectPath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\APIBook\\APIBook.csproj",
       "packagesPath": "C:\\Users\\Dnarvaez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\APIBook\\obj\\",
+      "outputPath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\APIBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dnarvaez\\AppData\\Roaming\\NuGet\\NuGet.Config",

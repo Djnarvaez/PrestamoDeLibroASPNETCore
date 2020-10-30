@@ -6206,11 +6206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\WEBBook\\WEBBook.csproj",
+      "projectUniqueName": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\WEBBook\\WEBBook.csproj",
       "projectName": "WEBBook",
-      "projectPath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\WEBBook\\WEBBook.csproj",
+      "projectPath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\WEBBook\\WEBBook.csproj",
       "packagesPath": "C:\\Users\\Dnarvaez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dnarvaez\\source\\repos\\Book\\WEBBook\\obj\\",
+      "outputPath": "C:\\Users\\Dnarvaez\\Desktop\\DemoPrestamoDeLibro\\WEBBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dnarvaez\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -78,41 +78,5 @@ namespace APIBook.Controllers
             await estudianteRepository.DeleteStudent(id);
             return NoContent();
         }
-        //[HttpPost(Name = "LendBooks")]
-        //public async Task<ActionResult> LendBooks([FromBody] StudentBookDTO studentBookDTO)
-        //{
-        //    await estudianteRepository.LendBooks(studentBookDTO);
-        //    return NoContent();
-        //}
-        //[HttpPost(Name = "ReturnBooks")]
-        //public async Task<ActionResult> ReturnBooks([FromBody] StudentBookDTO studentBookDTO)
-        //{
-        //    await estudianteRepository.ReturnBooks(studentBookDTO);
-        //    return NoContent();
-        //}
-
-        //[HttpGet(Name = "GetBorrowedBooks")]
-        //public async Task<ActionResult<List<BookBorrowedDTO>>> GetBorrowedBooks()
-        //{
-        //    var prestamos = await estudianteRepository.GetBorrowedBooks();
-        //    if (prestamos == null) return NotFound();
-        //    List<BookBorrowedDTO> bookBorroweds = new List<BookBorrowedDTO>();
-        //    foreach (var item in prestamos)
-        //    {
-        //        BookBorrowedDTO bookBorrowed = new BookBorrowedDTO();
-        //        var estudiante = await estudianteRepository.GetStudent(item.IdLector);
-        //        var libro = await libroRepository.GetAsync(item.IdLibro);
-
-        //        bookBorrowed.IdLibro = item.IdLibro;
-        //        bookBorrowed.IdLector = item.IdLector;
-        //        bookBorrowed.FechaPrestamo = item.FechaPrestamo;
-        //        bookBorrowed.FechaDevolucion = item.FechaDevolucion;
-        //        bookBorrowed.Devuelto = item.Devuelto;
-        //        bookBorrowed.Nombre = estudiante.Nombre;
-        //        bookBorrowed.Titulo = libro.Titulo;
-        //        bookBorroweds.Add(bookBorrowed);
-        //    }
-        //    return Ok(bookBorroweds);
-        //}
     }
 }
