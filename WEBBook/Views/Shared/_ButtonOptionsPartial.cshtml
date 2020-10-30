@@ -1,0 +1,9 @@
+﻿@model string
+<div class="row">
+    <div class="col-6">
+        <input type="submit" class="@(Model == "Delete"?"btn btn-danger form-control":"btn btn-info form-control")" value="@Model" />
+    </div>
+    <div class="col-6">
+        <a asp-action="Index" class="btn btn-success form-control">Back to list</a>
+    </div>
+</div>

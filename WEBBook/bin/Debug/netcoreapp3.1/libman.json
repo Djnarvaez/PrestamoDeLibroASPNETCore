@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/sweetalert/"
+    },
+    {
+      "library": "moment.js@2.17.1",
+      "destination": "wwwroot/moment.js/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/jquery/"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+﻿<div class="card" style="margin-top:30px">
+    <div class="card-header bg-dark text-light ml-0 row container">
+        <div class="col-md-6">
+            <i class="fa fa-user-circle"></i>&nbsp; Estudiante
+        </div>
+        <div class="col-md-6 text-right">
+            <button class="btn btn-sm btn-primary fa fa-plus" onclick="showModal()" style="float:right" title="Agregar"></button>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="estudianteData" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>CI</th>
+                    <th>Nombre</th>
+                    <th>Direccion</th>
+                    <th>Carrera</th>
+                    <th>Edad</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mdEstudiante" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" style="display:none">
+                    <label for="idLector">Id</label>
+                    <input type="text" class="form-control" id="idLector">
+                    <input type="text" class="form-control" value="false" id="isNew">
+                </div>
+                <div class="form-group">
+                    <label for="ciEstudiante">CI</label>
+                    <input type="text" class="form-control" id="ciEstudiante" placeholder="CI">
+                </div>
+                <div class="form-group">
+                    <label for="nombreEstudiante">Nombre</label>
+                    <input type="text" class="form-control" id="nombreEstudiante" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="direccionEstudiante">Direccion</label>
+                    <input type="text" class="form-control" id="direccionEstudiante" placeholder="Dirección">
+                </div>
+                <div class="form-group">
+                    <label for="carreraEstudiante">Carrera</label>
+                    <input type="text" class="form-control" id="carreraEstudiante" placeholder="Carrera">
+                </div>
+                <div class="form-group">
+                    <label for="edadEstudiante">Edad</label>
+                    <input type="number" class="form-control" id="edadEstudiante" placeholder="Edad">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnSave" onclick="SaveOrUpdate()">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/crudEstudiantes.js"></script>
+ }

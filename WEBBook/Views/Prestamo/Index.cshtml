@@ -1,0 +1,55 @@
+﻿<div class="card" style="margin-top:30px">
+    <div class="card-header bg-dark text-light ml-0 row container">
+        <div class="col-md-6">
+            <i class="fa fa-list-ul"></i>&nbsp;Préstamo
+        </div>
+        <div class="col-md-6 text-right">
+            <button class="btn btn-sm btn-primary btn-sm text-white" onclick="showModal()" style="float:right" title="Agregar"><i class="fa fa-book"></i>&nbsp;Prestar Libro</button>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="libroData" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Libro</th>
+                    <th>Lector</th>
+                    <th>Fecha De Préstamo</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="libroDataTbody">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mdPrestamo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Prestar Libro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="ddlLibro">Libro</label>
+                    <select id="ddlLibro" class=" form-control"></select>
+                </div>
+                <div class="form-group">
+                    <label for="ddlLector">Estudiante</label>
+                    <select id="ddlLector" class=" form-control"></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnSave" onclick="InserBorrowedBook()">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/crudPrestamo.js"></script>
+}

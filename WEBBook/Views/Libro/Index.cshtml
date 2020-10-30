@@ -1,0 +1,90 @@
+﻿<div class="card" style="margin-top:30px">
+    <div class="card-header bg-dark text-light ml-0 row container">
+        <div class="col-md-6">
+            <i class="fa fa-list-ul"></i>&nbsp;Lista de Libros
+        </div>
+        <div class="col-md-6 text-right">
+            <button class="btn btn-sm btn-primary fa fa-plus btn-sm text-white" onclick="showModal()" style="float:right" title="Agregar"></button>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="libroData" class="table table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Editoria</th>
+                    <th>Area</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="mdLibro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" style="display:none">
+                    <label for="idLibro">Id</label>
+                    <input type="text" class="form-control" id="idLibro">
+                    <input type="text" class="form-control" value="false" id="isNew">
+                </div>
+                <div class="form-group">
+                    <label for="tituloLibro">Titulo</label>
+                    <input type="text" class="form-control" id="tituloLibro" placeholder="Titulo">
+                </div>
+                <div class="form-group">
+                    <label for="editorialLibro">Editorial</label>
+                    <input type="text" class="form-control" id="editorialLibro" placeholder="Editorial">
+                </div>
+                <div class="form-group">
+                    <label for="areaLibro">Area</label>
+                    <input type="text" class="form-control" id="areaLibro" placeholder="Area">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnSave" onclick="SaveOrUpdate()">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="mdLibroAutor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="libroAutorModalLongTitle">Asignar Autor</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" style="display:none">
+                    <label for="idLibroAutor">Id</label>
+                    <input type="text" class="form-control" id="idLibroAutor" />
+                </div>
+                <div class="form-group">
+                    <label for="tituloLibro">Autor</label>
+                    <select id="ddlAutor" class=" form-control"></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnSave" onclick="SaveAssignAuthor()">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/crudLibros.js"></script>
+}
